@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 
-function App(): JSX.Element {
+export function App() {
   const [count, setCount] = useState<number>(0);
 
   return (
@@ -12,5 +12,3 @@ function App(): JSX.Element {
     </div>
   );
 }
-
-export default App;
