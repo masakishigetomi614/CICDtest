@@ -6,7 +6,7 @@ export function App() {
 
   return (
     <div className="App" style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>React TypeScript サンプルアプリ!!</h1>
+      <h1>React TypeScript サンプルアプリ~~</h1>
       <p>カウント: {count}</p>
       <button onClick={() => setCount(count + 1)}>カウントアップ</button>
     </div>
